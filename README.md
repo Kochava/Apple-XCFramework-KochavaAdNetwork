@@ -1,14 +1,18 @@
 # Apple-XCFramework-KochavaAdNetwork
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kochava/Apple-XCFramework-KochavaAdNetwork?include_prereleases)
+[![Releases](https://img.shields.io/github/v/release/kochava/Apple-XCFramework-KochavaAdNetwork?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-XCFramework-KochavaAdNetwork/releases)
 
 <img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
-## Apple XCFramework KochavaAdNetwork
+## KochavaAdNetwork
 
 The KochavaAdNetwork module is an optional module within the Kochava SDK providing advertising network support, and is a high-level interface to Apple's SKAdNetwork.
 
 The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+
+## Built on
+
+* Xcode 12
 
 ## Platforms
 
@@ -19,12 +23,11 @@ The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-
 
 ## Dependencies
 
-* [KochavaCore](https://github.com/Kochava/Apple-XCFramework-KochavaCore) 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kochava/Apple-XCFramework-KochavaCore?include_prereleases)
+* [KochavaCore](https://github.com/Kochava/Apple-XCFramework-KochavaCore) [![Download](https://img.shields.io/github/v/release/kochava/Apple-XCFramework-KochavaCore?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-XCFramework-KochavaCore/releases)
 
-## Installation
+## Integration
 
-[Kochava Apple SDK - Getting Started](https://support.kochava.com/sdk-integration/sdk-kochavatracker-ios)
+[Kochava Apple SDK Integration](https://support.kochava.com/sdk-integration/sdk-kochavatracker-ios)
 
 ## Author
 
