@@ -4,22 +4,26 @@
 
 <img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
+## Deprecation Advisory
+
+The contents of optional module KochavaAdNetwork were merged into primary module KochavaTracker in v6.0.0.  Module KochavaAdNetwork is now no longer needed, as its symbols are now always available from within module KochavaTracker.  In the meantime if you have this module in your project it will have no other adverse effects.  Module KochavaAdNetwork should be now removed from your build processes- including any Swift Package references, Cocoapods references, target inclusions, imports, registration calls, etc.  Thank you!
+
 ## KochavaAdNetwork
 
 The KochavaAdNetwork module is an optional module within the Kochava SDK providing advertising network support, and is a high-level interface to Apple's SKAdNetwork.
 
-The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
 ## Built on
 
-* Xcode 12.4
+* Xcode 14.1
 
 ## Platforms
 
-* iOS 10.3
+* iOS 12.4
 * macOS 10.14
-* tvOS 10.2
-* watchOS 3.2
+* tvOS 12.4
+* watchOS 5.2
 
 ## Dependencies
 
@@ -27,7 +31,7 @@ The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-
 
 ## Integration
 
-[Kochava Apple SDK Integration](https://support.kochava.com/sdk-integration/sdk-kochavatracker-ios)
+[Kochava Apple SDK Integration](https://support.kochava.com/sdk-integration/ios-sdk-integration/)
 
 ## Author
 
@@ -36,17 +40,3 @@ Kochava, support@kochava.com
 ## License
 
 KochavaAdNetwork is available under the [Kochava Terms of Service](https://www.kochava.com/terms-of-service/).
-
-
-## Default Branch
-
-As of October 1, 2020, github.com uses the branch name ‘main’ when creating the initial default branch for all new repositories.  In order to minimize any customizations in our github usage and to support consistent naming conventions, we have made the decision to rename the ‘master’ branch to be called ‘main’ in all Kochava’s github repos.
-
-For local copies of the repo, the following steps will update to the new default branch:
-
-```
-git branch -m master main
-git fetch origin
-git branch -u origin/main main
-git remote set-head origin -a
-```
